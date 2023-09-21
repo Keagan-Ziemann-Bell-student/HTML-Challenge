@@ -2,19 +2,67 @@ header {
     text-align: center;
     background-color: lightblue;
 }
-div {
+.Box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.Box-1 > p {
+    background-color: rgb(145, 97, 192);
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.Box-2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Boxes > div {
-    background-color: cornflowerblue;
+.Box-2 > p {
+    background-color: rgb(145, 97, 192);
     margin: 10px;
-    flex: 1;
-    height: 100px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
 }
-.Boxes > #Box-1 {
-    flex-direction: row;
+.Box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box-3 > p {
+    background-color: rgb(145, 97, 192);
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.Box-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box-4 > p {
+    background-color: rgb(145, 97, 192);
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
 }
 @media only screen and (max-width: 1000px) {
     .Boxes {
