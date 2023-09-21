@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+    background-color: lightblue;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Boxes > div {
+    background-color: cornflowerblue;
+    margin: 10px;
+    flex: 1;
+    height: 100px;
+}
+.Boxes > #Box-1 {
+    flex-direction: row;
+}
+@media only screen and (max-width: 1000px) {
+    .Boxes {
+      background-color: black;
+    }
+}
