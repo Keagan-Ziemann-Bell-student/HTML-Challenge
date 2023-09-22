@@ -1,13 +1,33 @@
-header {
+.Links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.Links > a {
+    margin: 1px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+}
+article {
     text-align: center;
     background-color: lightblue;
+}
+section {
+    text-align: center;
+    background-color: lightblue;
+    opacity: 0%;
 }
 .Box-1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+}
+.Box-1 > p:hover {
+    background-color: aquamarine;
 }
 .Box-1 > p {
     background-color: rgb(145, 97, 192);
@@ -18,11 +38,15 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    transition: 500ms;
 }
 .Box-2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Box-2 > p:hover {
+    background-color: aquamarine;
 }
 .Box-2 > p {
     background-color: rgb(145, 97, 192);
@@ -33,11 +57,15 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    transition: 500ms;
 }
 .Box-3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Box-3 > p:hover {
+    background-color: aquamarine;
 }
 .Box-3 > p {
     background-color: rgb(145, 97, 192);
@@ -48,11 +76,15 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    transition: 500ms;
 }
 .Box-4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Box-4 > p:hover {
+    background-color: aquamarine;
 }
 .Box-4 > p {
     background-color: rgb(145, 97, 192);
@@ -63,9 +95,42 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    transition: 500ms;
+}
+.Box-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box-5 > p:hover {
+    background-color: aquamarine;
+}
+.Box-5 > p {
+    background-color: rgb(145, 97, 192);
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    transition: 500ms;
 }
 @media only screen and (max-width: 1000px) {
-    .Boxes {
+    body {
       background-color: black;
+    }
+    .Links > a:hover {
+        background-color: aliceblue;
+    }
+    span {
+        background-color: darkslateblue;
+    }
+    article {
+        opacity: 0%;
+        height: 10px;
+    }
+    section {
+        opacity: 100%;
     }
 }
